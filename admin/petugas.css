@@ -1,0 +1,75 @@
+
+*
+{
+	padding:  0;
+	margin:  0;
+	box-sizing: border-box;
+}
+body
+{
+	height: 100vh;
+	font-family: sans-serif;
+	display: grid;
+	grid-template-rows: 50px auto;
+	grid-template-columns: 100px auto 100px;
+}
+header
+{
+	background-color: #303030;
+	height: 50px;
+	grid-column: 2/3;
+	justify-content: space-between;
+	display: flex;
+	color: white;
+	padding: 0 5px;
+}
+header > h3
+{
+	line-height: 50px;
+	margin-left: 20px;
+}
+nav
+{
+	display: flex;
+	width:  600px;
+	justify-content: space-evenly;
+}
+nav > a
+{
+	display: block;
+	text-decoration: none;
+	color:  white;	flex:  1;
+	line-height: 50px;
+	padding: 0 20px;
+}
+div.content
+{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+table
+{
+	width: 100%;
+	height: auto;
+	margin-top:10px;
+}
+table > thead > tr
+{
+	background-color: orange;
+	height: 50px;
+}
+th.aksi > a
+{
+	text-decoration: none;
+	color:  white;
+	background-color: black;
+	display: inline-block;
+	padding: 7px 10px;
+	font-size: 17px;
+	border-radius: 3px;
+}
+a[href="tambahpetugas"]
+{
+	background-color: darkcyan;
+	text-decoration: none;
+}

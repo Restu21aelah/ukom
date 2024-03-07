@@ -1,0 +1,72 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	height: 100vh;
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form
+{
+	width:  300px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+form > h2
+{
+	text-align: center;
+
+}
+form input
+{
+	padding:  5px;
+	font-size:  17px;
+	border-radius:  3px;
+	border: 1px solid black;
+	outline: 1px solid black;
+}
+form > div.tombol
+{
+	display: flex;
+	justify-content: space-between;
+}
+div.tombol > input
+{
+	outline:  none;
+	border:  none;
+	background-color: #6aa84f;
+	padding:  5px 20px;
+	border:  2px solid #6aa84f;
+}
+div.tombol > a
+{
+	display: block;
+	color: #6aa84f;
+	text-decoration: none;
+	border:  2px solid #6aa84f;
+	padding:  5px 20px;
+	border-radius:  3px;
+}
+form > samp
+{
+	color: red;
+	margin-top: 10px;
+}
+div.container
+{
+	width:  100%;
+	display: flex;
+	justify-content: space-between;
+}
+div.container > input
+{
+	width:  40%;
+}
